@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 DbC With Guard Clauses a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbcProductionCode", "DbcProductionCode\DbcProductionCode.csproj", "{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbcAutomatedTests", "DbcAutomatedTests\DbcAutomatedTests.csproj", "{00F4B880-252B-4171-BB55-35BEA0AE482A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F4B880-252B-4171-BB55-35BEA0AE482A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F4B880-252B-4171-BB55-35BEA0AE482A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F4B880-252B-4171-BB55-35BEA0AE482A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F4B880-252B-4171-BB55-35BEA0AE482A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{26551F27-C2D3-4D29-BA98-3DB473D6E6D7} = {7991846F-C41C-4390-ADDE-BBA68D6E50DE}
 		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23} = {AD2DEB01-05CD-417B-866D-B932025FEB41}
+		{00F4B880-252B-4171-BB55-35BEA0AE482A} = {AD2DEB01-05CD-417B-866D-B932025FEB41}
 	EndGlobalSection
 EndGlobal
