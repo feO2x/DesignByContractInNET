@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 DbC with Code Contracts", "01 DbC with Code Contracts", "{7991846F-C41C-4390-ADDE-BBA68D6E50DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbcCodeContracts", "DbcCodeContracts\DbcCodeContracts.csproj", "{26551F27-C2D3-4D29-BA98-3DB473D6E6D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 DbC With Guard Clauses and Tests", "02 DbC With Guard Clauses and Tests", "{AD2DEB01-05CD-417B-866D-B932025FEB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbcProductionCode", "DbcProductionCode\DbcProductionCode.csproj", "{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26551F27-C2D3-4D29-BA98-3DB473D6E6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26551F27-C2D3-4D29-BA98-3DB473D6E6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26551F27-C2D3-4D29-BA98-3DB473D6E6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26551F27-C2D3-4D29-BA98-3DB473D6E6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26551F27-C2D3-4D29-BA98-3DB473D6E6D7} = {7991846F-C41C-4390-ADDE-BBA68D6E50DE}
+		{1E814F7B-DCC0-430E-85EE-880CD5C9DF23} = {AD2DEB01-05CD-417B-866D-B932025FEB41}
+	EndGlobalSection
+EndGlobal
