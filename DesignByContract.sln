@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbcProductionCode", "DbcPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbcAutomatedTests", "DbcAutomatedTests\DbcAutomatedTests.csproj", "{00F4B880-252B-4171-BB55-35BEA0AE482A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Snippets", "Code Snippets", "{89F318E9-540C-4DA1-81D5-65911D7442DA}"
+	ProjectSection(SolutionItems) = preProject
+		DesignByContract.snippet = DesignByContract.snippet
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
